@@ -4,6 +4,7 @@
         <DirectivaVShow/>
         <DirectivaVIf/>
         <DirectivaVFor/> 
+        <Tarea1/>
     </div>
    
 </template>
@@ -12,13 +13,15 @@
 import DirectivaVShow from "./DirectivaVShow.vue";
 import DirectivaVIf from "./DirectivaVIf.vue";
 import DirectivaVFor from "./DirectivaVFor.vue";
+import Tarea1 from './Tarea1.vue';
 
 export default {
     name: 'Directivas',
     components: {
         DirectivaVShow,
         DirectivaVIf,
-        DirectivaVFor
+        DirectivaVFor,
+        Tarea1
     },
     data() {
         return{
